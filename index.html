@@ -9,21 +9,23 @@
 </head>
 <body class="bg-black text-white font-sans">
 
-  <!-- Header scrollable -->
-  <header class="fixed top-0 w-full bg-black/90 border-b border-gray-800 z-50">
-    <nav class="container mx-auto flex justify-between items-center p-4">
-      <!-- Logo -->
-      <img src="Logo.png" alt="Necrobeast Logo" class="h-20">
-      <!-- Barra de navegación scrollable en móvil -->
-      <ul class="flex gap-6 text-sm uppercase overflow-x-auto whitespace-nowrap px-2 scroll-smooth">
-        <li><a href="#bio" class="hover:text-red-600">Bio</a></li>
-        <li><a href="#music" class="hover:text-red-600">Música</a></li>
-        <li><a href="#shows" class="hover:text-red-600">Fechas</a></li>
-        <li><a href="#merch" class="hover:text-red-600">Merch</a></li>
-        <li><a href="#contact" class="hover:text-red-600">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+ <!-- Header scrollable con snap -->
+<header class="fixed top-0 w-full bg-black/90 border-b border-gray-800 z-50">
+  <nav class="container mx-auto flex justify-between items-center p-4">
+    <!-- Logo -->
+    <img src="Logo.png" alt="Necrobeast Logo" class="h-20">
+
+    <!-- Barra de navegación scrollable en móvil con snap -->
+    <ul class="flex gap-6 text-sm uppercase overflow-x-auto whitespace-nowrap px-2 scroll-smooth snap-x snap-mandatory">
+      <li class="snap-start"><a href="#bio" class="hover:text-red-600">Bio</a></li>
+      <li class="snap-start"><a href="#music" class="hover:text-red-600">Música</a></li>
+      <li class="snap-start"><a href="#shows" class="hover:text-red-600">Fechas</a></li>
+      <li class="snap-start"><a href="#merch" class="hover:text-red-600">Merch</a></li>
+      <li class="snap-start"><a href="#contact" class="hover:text-red-600">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
 
   <!-- Hero -->
   <section class="h-screen flex items-center justify-center relative 
@@ -135,6 +137,7 @@
 
 </body>
 </html>
+
 
 
 
