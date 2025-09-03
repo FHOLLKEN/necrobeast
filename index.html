@@ -9,39 +9,36 @@
 </head>
 <body class="bg-black text-white font-sans">
 
-  <!-- Header -->
-<header class="fixed top-0 w-full bg-black/90 border-b border-gray-800 z-50">
-  <nav class="container mx-auto flex justify-between items-center p-4">
-    <!-- Logo -->
-    <img src="Logo.png" alt="Necrobeast Logo" class="h-20">
-
-    <!-- Barra de navegación scrollable en móvil -->
-    <ul class="flex gap-6 text-sm uppercase overflow-x-auto whitespace-nowrap px-2">
-      <li><a href="#bio" class="hover:text-red-600">Bio</a></li>
-      <li><a href="#music" class="hover:text-red-600">Música</a></li>
-      <li><a href="#shows" class="hover:text-red-600">Fechas</a></li>
-      <li><a href="#merch" class="hover:text-red-600">Merch</a></li>
-      <li><a href="#contact" class="hover:text-red-600">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
-
+  <!-- Header scrollable -->
+  <header class="fixed top-0 w-full bg-black/90 border-b border-gray-800 z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <!-- Logo -->
+      <img src="Logo.png" alt="Necrobeast Logo" class="h-20">
+      <!-- Barra de navegación scrollable en móvil -->
+      <ul class="flex gap-6 text-sm uppercase overflow-x-auto whitespace-nowrap px-2 scroll-smooth">
+        <li><a href="#bio" class="hover:text-red-600">Bio</a></li>
+        <li><a href="#music" class="hover:text-red-600">Música</a></li>
+        <li><a href="#shows" class="hover:text-red-600">Fechas</a></li>
+        <li><a href="#merch" class="hover:text-red-600">Merch</a></li>
+        <li><a href="#contact" class="hover:text-red-600">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Hero -->
-<section class="h-screen flex items-center justify-center relative 
-                bg-black/70 bg-contain bg-center bg-no-repeat"
-         style="background-image: url('FONDO.png');">
-  <div class="absolute inset-0 bg-black/110"></div>
-  <div class="relative z-10 text-center">    
-    <h2 class="text-5xl md:text-7xl font-bold text-yellow-400 drop-shadow-lg">Iron Baphomet</h2>
-    <p class="mt-4 text-lg">Nuevo álbum disponible en <span class="text-red-600 font-bold">Soundcloud</span></p>
-    <a href="https://on.soundcloud.com/7Xg3WfOTqMqYU7m7f6" target="_blank"
-       class="mt-6 inline-block bg-red-600 px-6 py-3 rounded-xl hover:bg-yellow-500 hover:text-black transition">
-       Escuchar Ahora
-    </a>
-  </div>
-</section>
-
+  <section class="h-screen flex items-center justify-center relative 
+                  bg-black/70 bg-contain bg-center bg-no-repeat"
+           style="background-image: url('FONDO.png');">
+    <div class="absolute inset-0 bg-black/110"></div>
+    <div class="relative z-10 text-center">    
+      <h2 class="text-5xl md:text-7xl font-bold text-yellow-400 drop-shadow-lg">Iron Baphomet</h2>
+      <p class="mt-4 text-lg">Nuevo álbum disponible en <span class="text-red-600 font-bold">Soundcloud</span></p>
+      <a href="https://on.soundcloud.com/7Xg3WfOTqMqYU7m7f6" target="_blank"
+         class="mt-6 inline-block bg-red-600 px-6 py-3 rounded-xl hover:bg-yellow-500 hover:text-black transition">
+         Escuchar Ahora
+      </a>
+    </div>
+  </section>
 
   <!-- Bio -->
   <section id="bio" class="py-20 container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -61,10 +58,8 @@
     <div class="container mx-auto text-center px-6">
       <h3 class="text-3xl font-bold text-yellow-400 mb-8">Música</h3>
       <div class="grid md:grid-cols-2 gap-10">
-        <!-- Soundcloud -->
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
                 src="https://on.soundcloud.com/7Xg3WfOTqMqYU7m7f6"></iframe>
-        <!-- YouTube -->
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/VIDEO_ID" 
                 frameborder="0" allowfullscreen></iframe>
       </div>
@@ -95,7 +90,6 @@
     <div class="container mx-auto text-center px-6">
       <h3 class="text-3xl font-bold text-yellow-400 mb-10">Merch</h3>
       <div class="grid md:grid-cols-3 gap-10">
-        <!-- Producto -->
         <div class="bg-black border border-gray-700 rounded-xl shadow-md p-4 hover:border-red-600 transition">
           <img src="FONDO.png" alt="Album Iron Baphomet" class="rounded-lg mb-4">
           <h4 class="text-lg font-bold">Iron Baphomet - CD</h4>
@@ -103,7 +97,6 @@
           <a href="https://necrobeast.bandcamp.com" target="_blank"
              class="bg-red-600 px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-black transition">Comprar</a>
         </div>
-        <!-- Producto -->
         <div class="bg-black border border-gray-700 rounded-xl shadow-md p-4 hover:border-red-600 transition">
           <img src="Musico.jpg" alt="Necrobeast T-Shirt" class="rounded-lg mb-4">
           <h4 class="text-lg font-bold">Necrobeast T-Shirt</h4>
@@ -111,7 +104,6 @@
           <a href="https://necrobeast.bandcamp.com" target="_blank"
              class="bg-red-600 px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-black transition">Comprar</a>
         </div>
-        <!-- Producto -->
         <div class="bg-black border border-gray-700 rounded-xl shadow-md p-4 hover:border-red-600 transition">
           <img src="Logo.png" alt="Necrobeast Patch" class="rounded-lg mb-4">
           <h4 class="text-lg font-bold">Necrobeast Patch</h4>
@@ -143,6 +135,7 @@
 
 </body>
 </html>
+
 
 
 
